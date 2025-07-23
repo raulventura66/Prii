@@ -4,46 +4,32 @@ import { Linkedin, Mail, Award } from 'lucide-react';
 export const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: "Dr. Carlos Silva",
-      position: "CEO & Fundador",
+      name: "Carlos Silva",
+      position: "Secretário Executivo",
       image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "PhD em Engenharia Elétrica, 15 anos de experiência em eficiência energética",
-      specialties: ["Estratégia", "Inovação", "Sustentabilidade"]
+      bio: "Especialista em gestão administrativa e coordenação de projetos de eficiência energética",
+      specialties: ["Gestão", "Coordenação", "Administração"]
     },
     {
-      name: "Eng. Ana Costa",
-      position: "CTO",
+      name: "Ana Costa",
+      position: "Secretário Executivo",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Especialista em IoT e automação, líder em projetos de smart grid",
-      specialties: ["IoT", "Automação", "Smart Grid"]
+      bio: "Responsável pela organização e execução de processos administrativos e documentação",
+      specialties: ["Documentação", "Processos", "Organização"]
     },
     {
       name: "Roberto Santos",
-      position: "Diretor Comercial",
+      position: "Secretário Executivo",
       image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "MBA em Gestão, especialista em desenvolvimento de negócios sustentáveis",
-      specialties: ["Vendas", "Relacionamento", "Negócios"]
+      bio: "Especialista em atendimento ao cliente e suporte administrativo executivo",
+      specialties: ["Atendimento", "Suporte", "Relacionamento"]
     },
     {
-      name: "Dra. Marina Oliveira",
-      position: "Diretora de P&D",
+      name: "Marina Oliveira",
+      position: "Secretário Executivo",
       image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Doutora em Energia Renovável, pesquisadora em tecnologias limpas",
-      specialties: ["Pesquisa", "Energia Solar", "Inovação"]
-    },
-    {
-      name: "Eng. Paulo Ferreira",
-      position: "Gerente de Projetos",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "PMP certificado, especialista em implementação de projetos complexos",
-      specialties: ["Gestão", "Implementação", "Qualidade"]
-    },
-    {
-      name: "Juliana Almeida",
-      position: "Coordenadora de Sustentabilidade",
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
-      bio: "Especialista em ESG e certificações ambientais internacionais",
-      specialties: ["ESG", "Certificações", "Meio Ambiente"]
+      bio: "Coordenadora de agenda executiva e gestão de comunicações internas",
+      specialties: ["Agenda", "Comunicação", "Coordenação"]
     }
   ];
 
@@ -120,23 +106,23 @@ export const Team: React.FC = () => {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="group">
               <Award className="h-12 w-12 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <div className="text-4xl font-bold mb-2">50+</div>
-              <div className="text-lg opacity-90">Especialistas</div>
+              <div className="text-4xl font-bold mb-2">4</div>
+              <div className="text-lg opacity-90">Secretários</div>
             </div>
             <div className="group">
               <Award className="h-12 w-12 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <div className="text-4xl font-bold mb-2">25</div>
-              <div className="text-lg opacity-90">Engenheiros</div>
+              <div className="text-4xl font-bold mb-2">100%</div>
+              <div className="text-lg opacity-90">Dedicação</div>
             </div>
             <div className="group">
               <Award className="h-12 w-12 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <div className="text-4xl font-bold mb-2">15</div>
-              <div className="text-lg opacity-90">PhDs & Mestres</div>
+              <div className="text-4xl font-bold mb-2">5+</div>
+              <div className="text-lg opacity-90">Anos Experiência</div>
             </div>
             <div className="group">
               <Award className="h-12 w-12 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
               <div className="text-4xl font-bold mb-2">98%</div>
-              <div className="text-lg opacity-90">Satisfação</div>
+              <div className="text-lg opacity-90">Eficiência</div>
             </div>
           </div>
         </div>
