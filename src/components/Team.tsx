@@ -4,30 +4,30 @@ import { Linkedin, Mail, Award } from 'lucide-react';
 export const Team: React.FC = () => {
   const teamMembers = [
     {
-      name: "Carlos Silva",
+      name: "Alana Alves",
       position: "Secretário Executivo",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000000-c22f2c22f4/alana.jpeg?ph=f6f3b31670",
       bio: "Especialista em gestão administrativa e coordenação de projetos de eficiência energética",
       specialties: ["Gestão", "Coordenação", "Administração"]
     },
     {
-      name: "Ana Costa",
+      name: "Luiz Felipe",
       position: "Secretário Executivo",
-      image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000002-a230fa2313/luiz.jpeg?ph=f6f3b31670",
       bio: "Responsável pela organização e execução de processos administrativos e documentação",
       specialties: ["Documentação", "Processos", "Organização"]
     },
     {
-      name: "Roberto Santos",
+      name: "Vitória Pitre",
       position: "Secretário Executivo",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000016-2216e22170/IMG_7124.jpeg?ph=f6f3b31670",
       bio: "Especialista em atendimento ao cliente e suporte administrativo executivo",
       specialties: ["Atendimento", "Suporte", "Relacionamento"]
     },
     {
-      name: "Marina Oliveira",
+      name: "Priscila Soares",
       position: "Secretário Executivo",
-      image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://f6f3b31670.cbaul-cdnwnd.com/112fa8a5594ecbfdd9d3378b60b0b5e5/200000004-955f6955f8/Captura%20de%20Tela%20%28157%29.png?ph=f6f3b31670",
       bio: "Coordenadora de agenda executiva e gestão de comunicações internas",
       specialties: ["Agenda", "Comunicação", "Coordenação"]
     }
