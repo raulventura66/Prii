@@ -11,6 +11,7 @@ export const navigationItems: NavigationItem[] = [
   { id: 'sobre', label: 'Sobre' },
   { id: 'servicos', label: 'Serviços' },
   { id: 'time', label: 'Time' },
+  { id: 'time', label: 'Time' },
   { id: 'projetos', label: 'Projetos' },
   { id: 'contato', label: 'Contato' }
 ];
