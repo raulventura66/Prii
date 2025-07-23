@@ -22,8 +22,6 @@ function App() {
         return <ServicesPage />;
       case 'time':
         return <TeamPage />;
-      case 'time':
-        return <TeamPage />;
       case 'projetos':
         return <ProjectsPage />;
       case 'contato':

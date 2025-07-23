@@ -6,42 +6,42 @@ export const Team: React.FC = () => {
     {
       name: "Dr. Carlos Silva",
       position: "CEO & Fundador",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "PhD em Engenharia Elétrica, 15 anos de experiência em eficiência energética",
       specialties: ["Estratégia", "Inovação", "Sustentabilidade"]
     },
     {
       name: "Eng. Ana Costa",
       position: "CTO",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "Especialista em IoT e automação, líder em projetos de smart grid",
       specialties: ["IoT", "Automação", "Smart Grid"]
     },
     {
       name: "Roberto Santos",
       position: "Diretor Comercial",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "MBA em Gestão, especialista em desenvolvimento de negócios sustentáveis",
       specialties: ["Vendas", "Relacionamento", "Negócios"]
     },
     {
       name: "Dra. Marina Oliveira",
       position: "Diretora de P&D",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "Doutora em Energia Renovável, pesquisadora em tecnologias limpas",
       specialties: ["Pesquisa", "Energia Solar", "Inovação"]
     },
     {
       name: "Eng. Paulo Ferreira",
       position: "Gerente de Projetos",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "PMP certificado, especialista em implementação de projetos complexos",
       specialties: ["Gestão", "Implementação", "Qualidade"]
     },
     {
       name: "Juliana Almeida",
       position: "Coordenadora de Sustentabilidade",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
       bio: "Especialista em ESG e certificações ambientais internacionais",
       specialties: ["ESG", "Certificações", "Meio Ambiente"]
     }
