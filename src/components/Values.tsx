@@ -29,9 +29,9 @@ export const Values: React.FC = () => {
       description: "Padrão de qualidade superior em todos os projetos e relacionamentos."
     },
     {
-      icon: <Zap className="h-12 w-12 text-emerald-600" />,
-      title: "Sustentabilidade",
-      description: "Compromisso com o futuro do planeta através de soluções eco-eficientes."
+      icon: <Zap className="h-12 w-12 text-primary-600" />,
+      title: "Eficiência",
+      description: "Compromisso com a otimização de processos através de soluções administrativas eficientes."
     }
   ];
 
@@ -41,7 +41,7 @@ export const Values: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Nossos <span className="text-emerald-600">Valores</span>
+            Nossos <span className="text-primary-600">Valores</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Os princípios que guiam nossa empresa e definem nossa cultura organizacional, 

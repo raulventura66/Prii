@@ -8,11 +8,11 @@ export const About: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Sobre o <span className="text-emerald-600">Efici-E</span>
+            Sobre a <span className="text-primary-600">Prii</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Somos pioneiros em soluções de eficiência energética, comprometidos em transformar 
-            o modo como as empresas consomem e gerenciam energia.
+            Somos pioneiros em soluções de secretariado executivo, comprometidos em transformar 
+            o modo como as empresas gerenciam seus processos administrativos.
           </p>
         </div>
 
@@ -21,30 +21,30 @@ export const About: React.FC = () => {
           <div>
             <h3 className="text-3xl font-bold text-gray-900 mb-6">Nossa Missão</h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Promover a sustentabilidade através de tecnologias inovadoras que otimizam o 
-              consumo energético, reduzem custos operacionais e minimizam o impacto ambiental.
+              Promover a excelência administrativa através de serviços especializados de secretariado 
+              executivo que otimizam processos, reduzem custos operacionais e maximizam a produtividade.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Através de análises detalhadas, monitoramento inteligente e soluções personalizadas, 
-              ajudamos organizações a alcançarem seus objetivos de sustentabilidade.
+              Através de análises detalhadas, gestão inteligente e soluções personalizadas, 
+              ajudamos organizações a alcançarem seus objetivos de eficiência administrativa.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-6 bg-emerald-50 rounded-2xl">
-                <div className="text-3xl font-bold text-emerald-600 mb-2">100+</div>
+              <div className="text-center p-6 bg-primary-50 rounded-2xl">
+                <div className="text-3xl font-bold text-primary-600 mb-2">100+</div>
                 <div className="text-sm text-gray-600">Clientes Atendidos</div>
               </div>
-              <div className="text-center p-6 bg-blue-50 rounded-2xl">
-                <div className="text-3xl font-bold text-blue-600 mb-2">40%</div>
-                <div className="text-sm text-gray-600">Redução Média</div>
+              <div className="text-center p-6 bg-primary-100 rounded-2xl">
+                <div className="text-3xl font-bold text-primary-700 mb-2">40%</div>
+                <div className="text-sm text-gray-600">Melhoria na Eficiência</div>
               </div>
             </div>
           </div>
 
           <div className="relative">
             <img
-              src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Painéis solares"
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Secretariado executivo"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-lg">
@@ -61,30 +61,30 @@ export const About: React.FC = () => {
 
         {/* Values */}
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center p-8 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
-            <Target className="h-16 w-16 text-emerald-600 mx-auto mb-4" />
+          <div className="text-center p-8 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
+            <Target className="h-16 w-16 text-primary-600 mx-auto mb-4" />
             <h4 className="text-xl font-bold text-gray-900 mb-3">Precisão</h4>
             <p className="text-gray-600 leading-relaxed">
-              Análises detalhadas e métricas precisas para identificar oportunidades 
-              de otimização energética.
+              Análises detalhadas e processos precisos para identificar oportunidades 
+              de otimização administrativa.
             </p>
           </div>
 
-          <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
-            <Users className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+          <div className="text-center p-8 bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl hover:shadow-lg transition-shadow duration-300">
+            <Users className="h-16 w-16 text-primary-700 mx-auto mb-4" />
             <h4 className="text-xl font-bold text-gray-900 mb-3">Parceria</h4>
             <p className="text-gray-600 leading-relaxed">
               Trabalhamos lado a lado com nossos clientes para garantir 
-              resultados sustentáveis e duradouros.
+              resultados eficientes e duradouros.
             </p>
           </div>
 
-          <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl hover:shadow-lg transition-shadow duration-300">
-            <Lightbulb className="h-16 w-16 text-amber-600 mx-auto mb-4" />
+          <div className="text-center p-8 bg-gradient-to-br from-primary-200 to-primary-300 rounded-2xl hover:shadow-lg transition-shadow duration-300">
+            <Lightbulb className="h-16 w-16 text-primary-800 mx-auto mb-4" />
             <h4 className="text-xl font-bold text-gray-900 mb-3">Inovação</h4>
             <p className="text-gray-600 leading-relaxed">
-              Tecnologias de ponta e soluções criativas para os desafios 
-              energéticos do futuro.
+              Metodologias modernas e soluções criativas para os desafios 
+              administrativos do futuro.
             </p>
           </div>
         </div>
